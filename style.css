@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    background-image: url('images\fondo3.jpg'); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    padding: 20px;
+}
+
+body{
+
+    /*background:rgb(137, 166, 179)*/
+}
+
+
+nav{
+    display: flex; 
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+ul{
+    list-style: none;
+    display: inline;
+    color: rgb(137, 166, 179);
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px; 
+    letter-spacing: .02em;
+    width: 200px;
+}
+.content{
+    position: absolute;
+    top: 27vh;
+    left: 10%;
+    width: 33%;
+}
+
+.content h1{
+    font-size: 90px; 
+    color: white;
+}
+
+hr{
+    margin-top: 20px;
+    width: 40%;
+    height: 9px;
+    border: none; 
+    background: #dbf0fc;
+}
+.content p{
+    margin-top: 40px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+}
+button{
+    margin-top: 30px;
+    background: #ffffff; 
+    color: rgb(96, 116, 126);
+    border: none; 
+    letter-spacing: .02em; 
+    font-size: 19px; 
+    padding: 17px 25px; 
+    cursor: pointer; 
+    border-radius: 10px;
+}
