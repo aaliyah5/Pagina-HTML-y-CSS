@@ -6,17 +6,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.content {
-    background-image: url('images\fondo3.jpg'); /* Ruta a la imagen de fondo */
-    background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    padding: 20px;
-}
-
 body{
 
-    /*background:rgb(137, 166, 179)*/
+    background:rgb(137, 166, 179)
 }
 
 
